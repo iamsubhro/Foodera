@@ -1,0 +1,23 @@
+#food_image{
+		border-radius: 4px;
+	}
+	#add_item>input{
+		margin-bottom: 15px;
+		box-shadow: 0 0 black;
+	}
+	#add_btn{
+	    color: #fff;
+	    width: 200px;
+	    height: 40px;
+	    font-size: 18px;
+	    background-color: #33b742;
+	    border-color: #e0e0e0;
+	}
+	#next{
+		color: #333;
+    height: 40px;
+    font-size: 18px;
+    width: 100px;
+    background-color: #e2e2e2;
+    border-color: #ccc;
+	}

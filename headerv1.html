@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<style type="text/css">
+	body  {
+            background-color: #cccccc;
+            }
+          .div1 {
+            position: relative;
+            margin-top:0px;
+            margin-left:2%;
+            left: 0.5px;
+            top:10px;
+            width: 300px;
+            height: 70px;
+            border: 0px solid gray;
+            box-sizing: border-box;
+            color: rgba(225,225,225,.1);
+            background-image: url(2.png);
+            background-repeat: repeat-x;
+            -webkit-background-clip: text;
+            animation: animate 15s linear infinite;
+         }
+         .div2 {
+          position: relative;
+          margin-top:1px;
+          margin-left:1px;
+          left: 0.5px;
+          top: 0px;
+          width: 300px;
+          height: 30px;
+          border: 0px solid gray;
+          box-sizing: border-box;
+          color: rgba(225,225,225,.1);
+            background-image: url(2.png);
+            background-repeat: repeat-x;
+            -webkit-background-clip: text;
+            animation: animate 15s linear infinite;
+         }
+         .bottomright {
+         position: absolute;
+         bottom: 8px;
+         right: 16px;
+         font-size: 18px;
+         }
+         @keyframes animate {
+
+         	0%{
+         		background-position: left 10px top 0px;
+         	}
+         	40%{
+         		background-position: left 1000px top 10px;
+         	}
+         } 
+           
+  </style>
+  <body>
+    <title>FoodEra</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+
+   <nav class="navbar navbar-fixed-top navbar-inverse">
+<h3 class="div1"; style="font-size: 50px ;">FOODERA</h3>
+
+        <div class="container">
+
+        <div style="background-color: #ea5b31" class="w3-card"> 
+            <ul class="nav navbar-nav visible-xs inline btn-group">
+            </ul>
+          <div class="navbar-header navbar-right">            
+            <ul class="nav navbar-nav visible-sm visible-md visible-lg">
+                <li id="headitems" ><a style="color:#fff; " href="home.php">Find Restaurants</a></li>
+                <li  style="margin-right:80px;"  ><a class="dropdown-toggle" style="color:#fff;
+            " data-toggle="dropdown">My Account<span class="caret"></span></a>
+                <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="menu1">
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="edit_resto_details.php">My Restaurant</a></li>
+                  <li role="presentation" class="divider"></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="myorders.php">My Orders</a></li>
+                  <li role="presentation" class="divider"></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="open_resto.php">Add My restaurant</a></li>
+                  <li role="presentation" class="divider"></li>
+                  <li role="presentation"><a  id="signout" name="signout" role="menuitem" tabindex="-1" href="index.php">Sign-out</a></li>
+                </ul></li>
+
+            </ul>
+          </div>
+        </div>
+</div>
+
+    </nav>
+    </body>
+</html>

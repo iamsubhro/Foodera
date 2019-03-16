@@ -1,0 +1,24 @@
+#background {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                opacity: 0.3;
+                z-index: -1;
+            }
+     #find{ 
+            color: #ea5b31;
+            margin-top: 10%;
+            margin-left:20%;                    
+            font-size: 4em;
+            font-weight: 300;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+        #open_resto{
+        color: #fff;
+        background-color: #48a920;
+        height: 40px;
+        border-color: #ffffff;
+        font-size: 18px;
+        width: 150px;
+      }

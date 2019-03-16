@@ -1,0 +1,54 @@
+<style type="text/css">
+	body  {
+            background-color: #cccccc;
+            }
+          .div1 {
+          position: relative;
+          margin-top:0px;
+          margin-left:29%;
+          left: 0.5px;
+            width: 400px;
+            height: 70px;
+            border: 0px solid gray;
+            box-sizing: border-box;
+            color: rgba(225,225,225,.1);
+            background-image: url(2.png);
+            background-repeat: repeat-x;
+            -webkit-background-clip: text;
+            animation: animate 15s linear infinite;
+         }
+         .div2 {
+          position: relative;
+          margin-top:1px;
+           margin-left:35%;
+          left: 0.5px;
+          top: px;
+          width: 300px;
+          height: 30px;
+          border: 0px solid gray;
+          box-sizing: border-box;
+          color: rgba(225,225,225,.1);
+            background-image: url(2.png);
+            background-repeat: repeat-x;
+            -webkit-background-clip: text;
+            animation: animate 15s linear infinite;
+         }
+
+
+         .bottomright {
+         position: absolute;
+         bottom: 8px;
+         right: 16px;
+         font-size: 18px;
+         }
+         @keyframes animate {
+
+         	0%{
+         		background-position: left 10px top 0px;
+         	}
+         	40%{
+         		background-position: left 1000px top 10px;
+         	}
+         } 
+           
+  </style>

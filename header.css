@@ -1,0 +1,57 @@
+#headitems{
+          font-size: 18px;
+        }
+        #login_btn{
+          margin-top: 1.4px;
+        }
+        .navbar-default .navbar-nav>li>a,.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:active,.navbar-default .navbar-nav>li>a:visited {
+            color: #fff;
+            font-size: 18px;
+        }
+        
+        #slider{
+            margin-left: 5px;
+            box-shadow: 0 0 black;
+        }
+        .input-group>*{
+            width: 40%;
+            border-color: #20ac76;
+            height: 50px;
+        }
+        .input-group>button{
+            background-color: #ded8d8;
+            font-size: 18px;
+            border-radius: 0px;
+        }
+        #login_el{
+                box-shadow: 0 0 black;
+                margin-top: 20px;
+                font-weight: 200;
+                font-family: cursive;
+                font-size: 18px;
+                border-color: #cbffc0;
+        }
+        #login_btns,#signup_btns{
+                margin-top: 20px;
+                height: 40px;
+                font-size: 18px;
+                color: white;
+        }
+        #modal_header_button{
+               font-size: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+    border-color: white;
+    background-color: #eaeaea;
+        }
+        #logo{
+            color: #fff;
+            font-family: inherit;
+            font-size: 40px;
+            margin-left:40px;
+        }
+        #logo_xs{
+            color: #fff;
+            font-family: inherit;
+            font-size: 25px;
+        }

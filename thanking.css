@@ -1,0 +1,28 @@
+#interval{
+   	width: 60%;
+   	margin-top: 20px;
+   }
+   .checked {
+    color: orange;
+	}
+   #interval>option{
+   	padding-bottom: 5px;
+   }
+   #order>input{
+   	box-shadow: 0 0 black;
+   }
+   #deli_btn{
+   	-webkit-appearance: button;
+    height: 40px;
+    width: 150px;
+    border-color: white;
+    font-size: 18px;
+    background-color: #18c12d;
+   }
+   #submit_star{
+   	color: #fff;
+    width: 90px;
+    font-size: 18;
+    background-color: #04d63b;
+    border-color: #ffffff;
+   }

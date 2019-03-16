@@ -1,0 +1,25 @@
+.input-group>button{
+    		background-color: #ded8d8;
+    		font-size: 18px;
+    		border-radius: 0px;
+    	}
+    	#login_el{
+    		font-size:18px;
+    		box-shadow: 0 0 black;
+    		margin-top: 20px;
+    		font-weight: 300;
+    		font-family:  -webkit-pictograph ;
+    		font-size: 18px;
+    		width: 80%;
+    	}
+        #signup_btns{
+            margin-top: 20px;
+            }
+
+            #background {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                opacity: 0.3;
+                z-index: -1;
+            }

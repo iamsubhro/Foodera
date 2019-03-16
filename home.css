@@ -1,0 +1,39 @@
+  #resto_img{
+    margin:10px;
+    border-radius: 4px;
+  }
+  .w3-card-4{
+    margin-bottom: 40px;
+  }
+  #time_btn,#time_btn:hover,#time_btn:active{
+    border-width: 0px;
+    background-color: white;
+  }
+  .dropdown-menu>li{
+    margin-left: 5px;
+  }
+  #open_resto{
+    color: #fff;
+    background-color: #48a920;
+    height: 40px;
+    border-color: #ffffff;
+    font-size: 18px;
+    width: 150px;
+  }
+  #search_btn{
+
+    border-width: 0px;
+    background-color: #b97b0a;
+    height: 40px;
+    width: 80%;
+    border-color:white;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+  .checked {
+    color: orange;
+  }
+
+  
